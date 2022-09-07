@@ -1,0 +1,292 @@
+body {
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: #2b2c33;
+}
+
+p {
+  font-size: 1.125em;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  line-height: 1.33333em;
+}
+
+.ms-logo {
+  max-width: 108px;
+  height: auto;
+}
+
+.skype-main {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.logo-div::after {
+  content: "|";
+  font-size: 20px;
+  padding-left: 27px;
+  font-weight: 500;
+}
+
+.nav-left ul > li:not(:first-child) a,
+.nav-right a {
+  font-size: 0.8125rem;
+}
+
+.nav-main-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.more-toggler {
+  display: none;
+}
+
+.hero {
+  background: #f2f2f2;
+  width: 100%;
+}
+
+.hero-h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-h1-color {
+  display: inline-block;
+  background-image: linear-gradient(90deg, #0078d4, #c218ec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-left {
+  /* min-width: 45vw; */
+  /* min-height: auto; */
+  padding: 60px;
+}
+
+.card-carousel {
+  position: relative;
+}
+
+.card {
+  border-radius: 0 20px 20px 20px;
+  border: 1px solid #e5e4e8;
+  border-top: none;
+  overflow: hidden;
+}
+
+.arrow {
+  font-size: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  top: calc(50% - 25px);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #2b2c33;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  background-color: #2b2c33;
+  color: #fff;
+  transition: 1000;
+}
+
+.card-carousel h5 {
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 1.33333em;
+}
+
+.arrow-right {
+  right: 0px;
+}
+
+.arrow-left {
+  left: 0px;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 1.2em;
+}
+
+.card-body {
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: #2b2c33;
+}
+
+.last-content {
+  font-size: 0.75em;
+  line-height: 1.25em;
+}
+
+.last-content .left {
+  flex-basis: 50%;
+}
+
+.last-content .right {
+  flex-basis: 50%;
+  justify-self: flex-end;
+  text-align: end;
+}
+
+.form-select {
+  display: inline-block;
+  max-width: 12.5rem;
+  font-size: 1rem;
+}
+
+.bi-globe::before {
+  content: "\f3ee";
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: #f2f2f2;
+}
+
+footer h5 {
+  font-size: 1.25rem;
+  color: #616161;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-final {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-links a,
+li {
+  text-decoration: none;
+  color: #616161;
+  font-size: 11px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #2b2c33;
+}
+
+.more-toggler li {
+  display: none;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  .nav-main-div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-brand {
+    align-self: center;
+  }
+
+  .logo-div::after {
+    display: none;
+  }
+}
+
+/* getting nav-links inside more toggler */
+/* Get help- going in */
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  .more-toggler {
+    display: inline;
+  }
+
+  .more-toggler li:last-child {
+    display: inline;
+  }
+
+  .nav-gh {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .colm-4 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .colm-3 {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .colm-2 {
+    display: none;
+  }
+}
+
+/* Skype to number- going in */
+@media only screen and (max-width: 1100px) and (min-width: 768px) and (max-width: 1100px) {
+  .more-toggler li:nth-child(3) {
+    display: inline;
+  }
+
+  .nav-sn {
+    display: none;
+  }
+}
+
+/* Skype to phone- going in */
+
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+  .more-toggler li:nth-child(2) {
+    display: inline;
+  }
+
+  .nav-sp {
+    display: none;
+  }
+}
+
+/* Downloads- going in */
+
+@media only screen and (max-width: 940px) and (min-width: 768px) {
+  .more-toggler li:nth-child(1) {
+    display: inline;
+  }
+
+  .nav-d {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-left {
+    text-align: center;
+  }
+}
