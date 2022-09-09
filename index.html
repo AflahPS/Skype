@@ -20,11 +20,16 @@
   </head>
 
   <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-md bg-light">
-          <a class="navbar-brand logo-div" href="#"
-            ><img class="ms-logo" src="images/ms-logo.png" alt="microsoft-logo"
-          /></a>
+    <div class="container-fluid m-0">
+
+      <!--    Navbar    -->
+      <nav class="navbar navbar-expand-md mb-3 bg-light">
+        <!-- Logo -->
+        <a class="navbar-brand ms-2 logo-div" href="#"
+          ><img class="ms-logo" src="images/ms-logo.png" alt="microsoft-logo"
+        /></a>
+        <!-- @<=768px toggler -->
+        <div class="nav-sub">
           <button
             class="navbar-toggler"
             type="button"
@@ -36,146 +41,240 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div
-            class="collapse navbar-collapse nav-main-div"
-            id="navbarSupportedContent"
-          >
-            <div class="nav-left">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item skype-main">
-                  <a
-                    class="nav-link active skype-nav"
-                    aria-current="page"
-                    href="#"
-                    >Skype</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark font-weight-light nav-d" href="#"
-                    >Downloads</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark font-weight-light nav-sp" href="#"
-                    >Skype to Phone</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark font-weight-light nav-sn" href="#"
-                    >Skype Number</a
-                  >
-                </li>
 
-                <li class="nav-item dropdown nav-gh">
-                  <a
-                    class="nav-link text-dark dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Get Help
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Get Help</a></li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-                <!---------------------------- More ------------------------------------>
-                <li class="nav-item dropdown more-toggler">
-                  <a
-                    class="nav-link text-dark dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    More
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li class="nav-item">
-                      <a class="nav-link text-dark font-weight-light" href="#"
-                        >Downloads</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-dark font-weight-light" href="#"
-                        >Skype to Phone</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-dark font-weight-light" href="#"
-                        >Skype Number</a
-                      >
-                    </li>
+          <a class="text-decoration-none d-inline" href="#">HOST A MEETING</a>
+        </div>
+        <!-- Navbar Links -->
+        <div
+          class="collapse navbar-collapse nav-main-div"
+          id="navbarSupportedContent"
+        >
+          <div class="nav-left">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item skype-main">
+                <a
+                  class="nav-link active skype-nav"
+                  aria-current="page"
+                  href="#"
+                  >Skype</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark font-weight-light nav-d" href="#"
+                  >Downloads</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark font-weight-light nav-sp" href="#"
+                  >Skype to Phone</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark font-weight-light nav-sn" href="#"
+                  >Skype Number</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark font-weight-light nav-f" href="#"
+                  >Features</a
+                >
+              </li>
 
-                    <li class="nav-item dropdown">
-                      <a
-                        class="nav-link text-dark dropdown-toggle"
-                        href="#"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Get Help
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Get Help</a></li>
-                        <li>
-                          <hr class="dropdown-divider" />
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#"
-                            >Something else here</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
+              <li class="nav-item dropdown nav-p">
+                <a
+                  class="nav-link text-dark dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Meet Now</a></li>
 
-            <div class="nav-right">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link text-dark font-weight-light" href="#"
-                    >Host a meeting</a
-                  >
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link text-dark dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    sign in
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Get Help</a></li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
+                  <li>
+                    <a class="dropdown-item" href="#">Skype Manager</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Skype with Alexa</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Skype for content creators</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Skype for Business</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown nav-gh">
+                <a
+                  class="nav-link text-dark dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Get Help
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Skype Support</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Blogs</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Community</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">About Skype</a>
+                  </li>
+                </ul>
+              </li>
+              <!---------------------------- More ------------------------------------>
+              <li class="nav-item dropdown more-toggler">
+                <a
+                  class="nav-link text-dark dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark font-weight-light" href="#"
+                      >Downloads</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark font-weight-light" href="#"
+                      >Skype to Phone</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark font-weight-light" href="#"
+                      >Skype Number</a
+                    >
+                  </li>
+
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-dark font-weight-light nav-sn"
+                      href="#"
+                      >Features</a
+                    >
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link text-dark dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Products
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Meet Now</a></li>
+
+                      <li>
+                        <a class="dropdown-item" href="#">Skype Manager</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Skype with Alexa</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Skype for content creators</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Skype for Business</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link text-dark dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Get Help
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Skype Support</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Blogs</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Community</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">About Skype</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
+
+          <div class="nav-right me-5">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-dark font-weight-light" href="#"
+                  >Host a meeting</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link text-dark dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  sign in
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">My account</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">use Skype online</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >New to Skype?
+                      <p>Sign up</p></a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
       <!------------------- Article --------------------->
       <article>
-        <!-- Hero -->
-        <div class="row m-0 p-0 hero d-flex">
+        <!-- Main Hero -->
+        <div class="row m-0 p-2 hero d-flex">
           <div class="col-lg-6 flex-fill hero-left">
             <h1 class="hero-h1">Great video calls</h1>
             <h1 class="hero-h1-color">with Skype</h1>
@@ -185,20 +284,23 @@
                 you are
               </p>
             </span>
-            <button class="btn btn-primary mb-3">
+            <button class="btn btn-primary rounded-pill btn-lg mb-4 hero-btn">
               Open Skype in your browser
             </button>
 
-            <a class="d-block" href="#">Download Skype</a>
+            <a class="d-block text-decoration-none" href="#">Download Skype</a>
           </div>
           <div class="col-lg-6">
             <img class="img-fluid" src="images/hero1.png" alt="" />
           </div>
         </div>
+
         <!------------- Card Carousel  ----------->
         <h2 class="my-5 py-3 text-center">Discover more from Skype</h2>
 
-        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 card-carousel mx-2 mb-5">
+        <div
+          class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 card-carousel mx-2 mb-5"
+        >
           <div class="col colm-1">
             <div class="card h-100">
               <img src="images/c1.jpg" class="card-img-top" alt="..." />
@@ -216,7 +318,9 @@
                 </p>
               </div>
               <div class="card-footer mt-4">
-                <a href="#">Learn More<i class="bi bi-chevron-right"></i></a>
+                <a class="text-decoration-none opacity-50" href="#"
+                  >Learn More<i class="bi bi-chevron-right"></i
+                ></a>
               </div>
             </div>
           </div>
@@ -240,7 +344,9 @@
                 </p>
               </div>
               <div class="card-footer mt-4">
-                <a href="#">Learn More<i class="bi bi-chevron-right"></i></a>
+                <a class="text-decoration-none opacity-50" href="#"
+                  >Learn More<i class="bi bi-chevron-right"></i
+                ></a>
               </div>
             </div>
           </div>
@@ -262,7 +368,9 @@
                 </p>
               </div>
               <div class="card-footer mt-4">
-                <a href="#">Learn More<i class="bi bi-chevron-right"></i></a>
+                <a class="text-decoration-none opacity-50" href="#"
+                  >Learn More<i class="bi bi-chevron-right"></i
+                ></a>
               </div>
             </div>
           </div>
@@ -280,19 +388,23 @@
                 </p>
               </div>
               <div class="card-footer mt-4">
-                <a href="#">Learn More<i class="bi bi-chevron-right"></i></a>
+                <a class="text-decoration-none opacity-50" href="#"
+                  >Learn More<i class="bi bi-chevron-right"></i
+                ></a>
               </div>
             </div>
           </div>
 
-          <div class="arrow arrow-left"><i class="bi bi-chevron-left"></i></div>
+          <div class="arrow arrow-left d-none">
+            <i class="bi bi-chevron-left"></i>
+          </div>
           <div class="arrow arrow-right">
             <i class="bi bi-chevron-right"></i>
           </div>
         </div>
-
-        <div class="d-flex align-items-center last-content my-3">
-          <div class="left">
+        <!-- Content Before Footer -->
+        <div class="d-flex gap-3 align-items-center last-content my-3">
+          <div class="left ms-5 d-flex flex-sm-row flex-column gap-3">
             <a href="#">Facebook</a>
             <a href="#">Twitter</a>
             <a href="#">Youtube</a>
@@ -310,9 +422,9 @@
         </div>
       </article>
       <!-- Footer -->
-      <footer class="footer-links ps-5 pt-5" >
+      <footer class="footer-links ps-5 pt-5">
         <!-- Row 1 Col 1 -->
-        <div class="row row-cols-sm-3 row-cols-1 row-cols-xl-6 row-cols-md-3 ">
+        <div class="row row-cols-sm-3 row-cols-1 row-cols-xl-6 row-cols-md-3">
           <div class="col">
             <h5>What's new</h5>
             <ul class="list-unstyled">
@@ -407,101 +519,101 @@
             </ul>
           </div>
 
-        <!-- Row 2 Col 1 -->
+          <!-- Row 2 Col 1 -->
 
-        <div class="col">
-          <h5>Business</h5>
-          <ul class="list-unstyled">
-            <li class="mb-3">
-              <a href="#">Microsoft Cloud</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Microsoft Security</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Dynamics 365</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Microsoft 365</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Microsoft Power Platform</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Microsoft Teams</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Microsoft Industry</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Small Business</a>
-            </li>
-          </ul>
-        </div>
+          <div class="col">
+            <h5>Business</h5>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <a href="#">Microsoft Cloud</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Microsoft Security</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Dynamics 365</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Microsoft 365</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Microsoft Power Platform</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Microsoft Teams</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Microsoft Industry</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Small Business</a>
+              </li>
+            </ul>
+          </div>
 
-        <!-- Row 2 Col 2 -->
+          <!-- Row 2 Col 2 -->
 
-        <div class="col">
-          <h5>Developer & IT</h5>
-          <ul class="list-unstyled">
-            <li class="mb-3">
-              <a href="#">Azure</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Developer Center</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Documentation</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Microsoft Learn</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Microsoft Tech Community</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Azure Marketplace</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">AppSource</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Visual Studio</a>
-            </li>
-          </ul>
-        </div>
+          <div class="col">
+            <h5>Developer & IT</h5>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <a href="#">Azure</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Developer Center</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Documentation</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Microsoft Learn</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Microsoft Tech Community</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Azure Marketplace</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">AppSource</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Visual Studio</a>
+              </li>
+            </ul>
+          </div>
 
-        <!-- Row 2 Col 3 -->
+          <!-- Row 2 Col 3 -->
 
-        <div class="col">
-          <h5>Company</h5>
-          <ul class="list-unstyled">
-            <li class="mb-3">
-              <a href="#">Careers</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">About Microsoft</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Company news</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Privacy at Microsoft</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Investors</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Diversity and inclusion</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Accessibility</a>
-            </li>
-            <li class="mb-3">
-              <a href="#">Sustainability</a>
-            </li>
-          </ul>
-        </div>
+          <div class="col">
+            <h5>Company</h5>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <a href="#">Careers</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">About Microsoft</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Company news</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Privacy at Microsoft</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Investors</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Diversity and inclusion</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Accessibility</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Sustainability</a>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <!-- Language -->
@@ -516,7 +628,7 @@
             <option value="2">Malayalam</option>
           </select>
         </div>
-
+        <!-- Terms and Condition kinda links -->
         <div>
           <ul class="footer-final list-unstyled">
             <li class="nav-item">
