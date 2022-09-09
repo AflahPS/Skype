@@ -49,6 +49,12 @@ p {
   align-items: center;
 }
 
+.nav-link:hover{
+  display: inline;
+  border-bottom: 2px solid black;
+  
+}
+
 .more-toggler {
   display: none;
 }
